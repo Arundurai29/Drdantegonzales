@@ -1180,7 +1180,27 @@
 }
 .footer-logos {
   display: grid;
+  padding: 52px 0 0;
   grid-template-columns: repeat(2, 1fr);
+}
+.about-img{
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.content a {
+  padding: 20px 59px;
+}
+.logo2 {
+  width: 100% !important;
+  height: 120px !important;
+  object-fit: contain;
+  position: relative;
+  right: 5px;
+  margin: 10px 0 24px;
+}
+.about-area .tab-content .info {
+  padding-right: 0;
 }
 }
 

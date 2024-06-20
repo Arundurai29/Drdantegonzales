@@ -62,6 +62,7 @@ html {
   height: 100%;
   position: relative;
   overflow: visible;
+  overflow-x: hidden;
 }
 
 body {
@@ -1003,8 +1004,17 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
   z-index: 1;
 }
 .logo2 {
-  width: 70px !important;
-  height: 70px !important;
+  width: 120px !important;
+  height: 120px !important;
+  object-fit: contain;
+  position: absolute;
+  right: -30px;
+}
+.about-img{
+  display: flex;
+  justify-content: space-between;
+}
+.about-img img{
   object-fit: contain;
 }
 .top-bar-area.bg-theme::after {
@@ -1884,9 +1894,8 @@ body,
 }
 
 .about-area .tab-content .info {
-  padding-right: 0;
+  padding-right: 80px;
 }
-
 /* Table */
 .about-area .em-services-items table {
   border: 1px solid #e5e5e5;
