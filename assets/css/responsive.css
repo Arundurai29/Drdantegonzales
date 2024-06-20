@@ -1178,6 +1178,10 @@
 .test-logs {
   margin: -10px 0 0 30px;
 }
+.footer-logos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 }
 
 /* Max Wide Mobile Layout: 600px. */
