@@ -338,8 +338,8 @@ input {
 }
 
 .default-padding {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 .default-padding-top {
@@ -371,7 +371,7 @@ input {
 }
 
 .carousel-shadow {
-  padding-bottom: 105px;
+  padding-bottom: 90px;
 }
 
 .btn {
@@ -1123,6 +1123,7 @@ body,
   position: relative;
   overflow: hidden;
   z-index: 1;
+  background: #f7f7f7;
 }
 
 .banner-area.left-shadow::before {
@@ -6060,4 +6061,73 @@ font-size: 16px;
 #tab1 i{
   color: #f89f3c;
   margin-right: 7px;
+}
+.below-banner {
+  background: #f7f7f7;
+  padding: 40px;
+}
+.dim-logo{
+  width: 300px;
+  height: 200px;
+  object-fit: contain;
+}
+.testimonial-items .item1::after{
+  display: none !important
+  ;
+}
+.beaf-group img {
+  width: 400px;
+}
+.info1{
+  display: flex;
+  align-items: center;
+}
+.list-group{
+  display: flex;
+  gap: 50px;
+}
+.brfore2{
+  background: #f7f7f7;
+  font-size: 16px;
+}
+
+/* before&after */
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100%;
+  object-fit: contain;
+  transition: clip-path 0s ease; /* Smooth transition for clip-path changes */
+}
+
+.after {
+  clip-path: polygon(0% 0%, 50% 0%, 50% 100%, 0% 100%);
+  z-index: 1; /* Ensure the after image is behind the before image */
+}
+
+.before {
+  clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%);
+  z-index: 2; /* Ensure the before image is in front of the after image */
+}
+
+.slider-overlay {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 3; /* Ensure the slider overlay is above both images */
+  transition: left 0s ease; /* Smooth transition for slider overlay movement */
 }

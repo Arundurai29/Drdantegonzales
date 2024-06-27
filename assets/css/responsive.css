@@ -1202,6 +1202,20 @@
 .about-area .tab-content .info {
   padding-right: 0;
 }
+.info1{
+  display: grid;
+ 
+}
+.beaf-group{
+  display: grid;
+}
+.beaf-group img{
+  width: 100%;
+}
+.below-banner {
+  background: #f7f7f7;
+  padding: 10px 10px 40px;
+}
 }
 
 /* Max Wide Mobile Layout: 600px. */
