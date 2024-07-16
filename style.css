@@ -1054,6 +1054,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
 .bar-btn{
   display: flex;
   gap: 20px;
+  justify-content: end;
 }
 .top-bar-area .bar-btn a {
   text-transform: uppercase;
