@@ -872,7 +872,10 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
   position: absolute;
   top: 1px;
 }
-
+.head-contact{
+  display: grid !important;
+  gap: 10px;
+}
 .breadcrumb-area .breadcrumb li:first-child::after {
   display: none;
 }
@@ -936,7 +939,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
 
 .top-bar-area .info li {
   float: left;
-  margin-right: 12px;
+  margin-right: 20px;
   position: relative;
   z-index: 1;
   padding-right: 20px;
